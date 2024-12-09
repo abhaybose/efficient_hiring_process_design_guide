@@ -1,0 +1,20 @@
+[project]
+name = "efficient_hiring_process_design_guide"
+version = "0.1.0"
+description = "efficient_hiring_process_design_guide using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.80.0,<1.0.0"
+]
+
+[project.scripts]
+efficient_hiring_process_design_guide = "efficient_hiring_process_design_guide.main:run"
+run_crew = "efficient_hiring_process_design_guide.main:run"
+train = "efficient_hiring_process_design_guide.main:train"
+replay = "efficient_hiring_process_design_guide.main:replay"
+test = "efficient_hiring_process_design_guide.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
