@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import sys
-from efficient_hiring_process_design_guide_crew import EfficientHiringProcessDesignGuideCrew
+from efficient_hiring_process_design_guide.crew import EfficientHiringProcessDesignGuideCrew
 
 # This main file is intended to be a way for your to run your
 # crew locally, so refrain from adding unnecessary logic into this file.
